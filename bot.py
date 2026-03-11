@@ -12,7 +12,7 @@ import os
 
 # Загружаем переменные окружения
 load_dotenv()
-TOKEN = os.getenv("8775537101:AAFer2zcx-fB1kGX3oXZKdlPps8Ats1cc5Y")  # Создай файл .env и напиши туда BOT_TOKEN=твой_токен
+TOKEN = "8775537101:AAFer2zcx-fB1kGX3oXZKdlPps8Ats1cc5Y"  # Создай файл .env и напиши туда BOT_TOKEN=твой_токен
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO)
